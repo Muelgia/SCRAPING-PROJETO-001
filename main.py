@@ -6,7 +6,10 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from dadosProjeto import nomeNavegador
 
+
 driver = navegador(porta=3542, caminhoChrome=nomeNavegador)
+
+input('Aperte alguma tecla para continuar após logar!')
 
 wait = WebDriverWait(driver,0.1)
 
